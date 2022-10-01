@@ -85,7 +85,7 @@ public class ReadPropertiesFileValuesServiceImpl implements ReadPropertiesFileVa
          * Getting some values (it might change as dynamic) from properties file is the good approach.
          * So, go with that way and add some values which might change (eg. api url) into properties file instead of adding hard coded values in class level and get that values is good approach in java projects.
          * You can do whatever you want with that values.
-         * eg. calling other api (url can get from properties file), or adding prefix, getting columns name to export excel, checking id, getting client id to call api
+         * eg. calling other api (url can get from properties file), adding prefix, getting columns name to export excel, checking id, getting client id to call api
          * eg. getting your server ip to do other operations, getting static email list to send (if it's increase day by day, it's better save in db), getting password, doing other logic or etc. whatever you want.
          * But here, I showed as reading config values demo project.
          * so, I don't do any logic and return that values as api response.
@@ -128,7 +128,7 @@ public class ReadPropertiesFileValuesServiceImpl implements ReadPropertiesFileVa
          * Getting some values (it might change as dynamic) from properties file is the good approach.
          * So, go with that way and add some values which might change (eg. api url) into properties file instead of adding hard coded values in class level and get that values is good approach in java projects.
          * You can do whatever you want with that values.
-         * eg. calling other api (url can get from properties file), or adding prefix, getting columns name to export excel, checking id, getting client id to call api
+         * eg. calling other api (url can get from properties file), adding prefix, getting columns name to export excel, checking id, getting client id to call api
          * eg. getting your server ip to do other operations, getting static email list to send (if it's increase day by day, it's better save in db), getting password, doing other logic or etc. whatever you want.
          * But here, I showed as reading config values demo project.
          * so, I don't do any logic and return that values as api response.
@@ -190,7 +190,7 @@ public class ReadPropertiesFileValuesServiceImpl implements ReadPropertiesFileVa
          * Getting some values (it might change as dynamic) from properties file is the good approach.
          * So, go with that way and add some values which might change (eg. api url) into properties file instead of adding hard coded values in class level and get that values is good approach in java projects.
          * You can do whatever you want with that values.
-         * eg. calling other api (url can get from properties file), or adding prefix, getting columns name to export excel, checking id, getting client id to call api
+         * eg. calling other api (url can get from properties file), adding prefix, getting columns name to export excel, checking id, getting client id to call api
          * eg. getting your server ip to do other operations, getting static email list to send (if it's increase day by day, it's better save in db), getting password, doing other logic or etc. whatever you want.
          * But here, I showed as reading config values demo project.
          * so, I don't do any logic and return that values as api response.
@@ -219,7 +219,7 @@ public class ReadPropertiesFileValuesServiceImpl implements ReadPropertiesFileVa
          * Getting some values (it might change as dynamic) from properties file is the good approach.
          * So, go with that way and add some values which might change (eg. api url) into properties file instead of adding hard coded values in class level and get that values is good approach in java projects.
          * You can do whatever you want with that values.
-         * eg. calling other api (url can get from properties file), or adding prefix, getting columns name to export excel, checking id, getting client id to call api
+         * eg. calling other api (url can get from properties file), adding prefix, getting columns name to export excel, checking id, getting client id to call api
          * eg. getting your server ip to do other operations, getting static email list to send (if it's increase day by day, it's better save in db), getting password, doing other logic or etc. whatever you want.
          * But here, I showed as reading config values demo project.
          * so, I don't do any logic and return that values as api response.
