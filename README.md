@@ -35,7 +35,7 @@
 </h1>
 
 # reading-properties-file-values
-* This is the sample project for Reading values from properties file.
+* This is the sample spring boot java project for Reading values from properties file.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
