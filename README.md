@@ -58,7 +58,7 @@ You can learn how to Read values from properties file by 3 ways (most popular wa
 2. Read by using Configuration Properties.
 3. Read by using Environment.
 * You can use one of the above ways in your application as you want and depend on your application.
-* Config values from properties file is use for doing logic to avoid hard coded adding value in class level. 
+* Getting config values from properties file is use for doing logic to avoid hard coded adding value in class level. 
 Because if you write code with hard coded for some values, it's hard to change when it's need to change as business requirement.
 * So, if you go with that way in your application, you can easily change in properties file `without touching classes` when it's need to change.
 * You can also change properties file values without restarting the application.
