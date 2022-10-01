@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "340ef2b1-a401-4dfa-bea0-d871935c4b76",
+		"name": "read-properties-file-value",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9784437"
+	},
+	"item": [
+		{
+			"name": "read by using Value annotation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/read-prop-file-values/readByValueAnnotation",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"read-prop-file-values",
+						"readByValueAnnotation"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "read by using Value annotation",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/read-prop-file-values/readByValueAnnotation",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"read-prop-file-values",
+								"readByValueAnnotation"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Oct 2022 21:30:01 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"readType\": \"Read by using @Value\",\n    \"configValues\": {\n        \"headerExcelColumn1\": \"TRANSACTION_ID\",\n        \"headerExcelColumn2\": \"TRANSACTION_DATE\",\n        \"headerCsvColumn1\": \"NAME\",\n        \"name\": \"Test config\",\n        \"uploadFileUrl\": \"D://app/fileupload\",\n        \"smtpPort\": \"25\",\n        \"emailAddress\": \"test@gmail.com\",\n        \"emailPassword\": \"test\",\n        \"phoneNoPrefix\": \"+959\",\n        \"key\": \"userId\",\n        \"columnListValues\": [\n            \"No\",\n            \"Name\",\n            \"Amount\"\n        ],\n        \"defaultEmailRecipientList\": [\n            \"yewin.mmr@gmail.com\",\n            \"admin@gmail.com\"\n        ],\n        \"otherInternalEmailServiceUrl\": \"http://localhost:8081/sendEmail\",\n        \"otherInternalBillServiceUrl\": \"http://localhost:8082/getBillers\",\n        \"otherInternalIntegrationServiceUrl\": \"http://localhost:8083/integrationProcess\",\n        \"otherInternalServiceSecret\": \"secretCode\",\n        \"thirdPartyAACompanyClientId\": \"clientId\",\n        \"thirdPartyAACompanySecretKey\": \"secretKey\",\n        \"thirdPartyAACompanyGetDetailUrl\": \"http://aacompany host name or ip:port/getDetails\",\n        \"thirdPartyAACompanyPostPaymentUrl\": \"http://aacompany host name or ip:port/doPayment\",\n        \"thirdPartyBBCompanyUsername\": \"BB company provided username\",\n        \"thirdPartyBBCompanyPassword\": \"BB company provided password\",\n        \"thirdPartyBBCompanyPurchaseApiUrl\": \"http://bbcompany host name or ip:port/makePurchase\",\n        \"thirdPartyGGMicrofinanceCompanyLoanUrl\": \"http://ip:port/loan\",\n        \"thirdPartyOoredooOperatorEloadTopupUrl\": \"http://ip:port/topup\",\n        \"thirdPartyTelenorOperatorPackageUrl\": \"http://ip:port/setPackage\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "read by using Configuration Properties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/read-prop-file-values/readByConfigurationProperties",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"read-prop-file-values",
+						"readByConfigurationProperties"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "read by using Configuration Properties",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/read-prop-file-values/readByConfigurationProperties",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"read-prop-file-values",
+								"readByConfigurationProperties"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Oct 2022 21:32:16 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"readType\": \"Read by using Configuration Properties\",\n    \"configValues\": {\n        \"headerExcelColumn1\": \"TRANSACTION_ID\",\n        \"headerExcelColumn2\": \"TRANSACTION_DATE\",\n        \"headerCsvColumn1\": \"NAME\",\n        \"name\": \"Test config\",\n        \"uploadFileUrl\": \"D://app/fileupload\",\n        \"smtpPort\": \"25\",\n        \"emailAddress\": \"test@gmail.com\",\n        \"emailPassword\": \"test\",\n        \"phoneNoPrefix\": \"+959\",\n        \"key\": \"userId\",\n        \"columnListValues\": [\n            \"No\",\n            \"Name\",\n            \"Amount\"\n        ],\n        \"defaultEmailRecipientList\": [\n            \"yewin.mmr@gmail.com\",\n            \"admin@gmail.com\"\n        ],\n        \"otherInternalEmailServiceUrl\": \"http://localhost:8081/sendEmail\",\n        \"otherInternalBillServiceUrl\": \"http://localhost:8082/getBillers\",\n        \"otherInternalIntegrationServiceUrl\": \"http://localhost:8083/integrationProcess\",\n        \"otherInternalServiceSecret\": \"secretCode\",\n        \"thirdPartyAACompanyClientId\": \"clientId\",\n        \"thirdPartyAACompanySecretKey\": \"secretKey\",\n        \"thirdPartyAACompanyGetDetailUrl\": \"http://aacompany host name or ip:port/getDetails\",\n        \"thirdPartyAACompanyPostPaymentUrl\": null,\n        \"thirdPartyBBCompanyUsername\": \"BB company provided username\",\n        \"thirdPartyBBCompanyPassword\": \"BB company provided password\",\n        \"thirdPartyBBCompanyPurchaseApiUrl\": \"http://bbcompany host name or ip:port/makePurchase\",\n        \"thirdPartyGGMicrofinanceCompanyLoanUrl\": \"http://ip:port/loan\",\n        \"thirdPartyOoredooOperatorEloadTopupUrl\": \"http://ip:port/topup\",\n        \"thirdPartyTelenorOperatorPackageUrl\": \"http://ip:port/setPackage\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "read by using Enviroment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/read-prop-file-values/readByEnvironment",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"read-prop-file-values",
+						"readByEnvironment"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "read by using Enviroment",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/read-prop-file-values/readByEnvironment",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"read-prop-file-values",
+								"readByEnvironment"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Oct 2022 21:30:22 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"readType\": \"Read by using Environment\",\n    \"configValues\": {\n        \"headerExcelColumn1\": \"TRANSACTION_ID\",\n        \"headerExcelColumn2\": \"TRANSACTION_DATE\",\n        \"headerCsvColumn1\": \"NAME\",\n        \"name\": \"Test config\",\n        \"uploadFileUrl\": \"D://app/fileupload\",\n        \"smtpPort\": \"25\",\n        \"emailAddress\": \"test@gmail.com\",\n        \"emailPassword\": \"test\",\n        \"phoneNoPrefix\": \"+959\",\n        \"key\": \"userId\",\n        \"columnListValues\": [\n            \"No\",\n            \"Name\",\n            \"Amount\"\n        ],\n        \"defaultEmailRecipientList\": [\n            \"yewin.mmr@gmail.com\",\n            \"admin@gmail.com\"\n        ],\n        \"otherInternalEmailServiceUrl\": \"http://localhost:8081/sendEmail\",\n        \"otherInternalBillServiceUrl\": \"http://localhost:8082/getBillers\",\n        \"otherInternalIntegrationServiceUrl\": \"http://localhost:8083/integrationProcess\",\n        \"otherInternalServiceSecret\": \"secretCode\",\n        \"thirdPartyAACompanyClientId\": \"clientId\",\n        \"thirdPartyAACompanySecretKey\": \"secretKey\",\n        \"thirdPartyAACompanyGetDetailUrl\": \"http://aacompany host name or ip:port/getDetails\",\n        \"thirdPartyAACompanyPostPaymentUrl\": \"http://aacompany host name or ip:port/doPayment\",\n        \"thirdPartyBBCompanyUsername\": \"BB company provided username\",\n        \"thirdPartyBBCompanyPassword\": \"BB company provided password\",\n        \"thirdPartyBBCompanyPurchaseApiUrl\": \"http://bbcompany host name or ip:port/makePurchase\",\n        \"thirdPartyGGMicrofinanceCompanyLoanUrl\": \"http://ip:port/loan\",\n        \"thirdPartyOoredooOperatorEloadTopupUrl\": \"http://ip:port/topup\",\n        \"thirdPartyTelenorOperatorPackageUrl\": \"http://ip:port/setPackage\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "read extra custom config file",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/read-prop-file-values/readCustomFileConfigs",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"read-prop-file-values",
+						"readCustomFileConfigs"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "read extra custom config file",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/read-prop-file-values/readCustomFileConfigs",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"read-prop-file-values",
+								"readCustomFileConfigs"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Oct 2022 21:29:37 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"description\": \"Read from extra custom config file\",\n    \"readType\": \"Read by using Environment\",\n    \"customFileConfigValues\": {\n        \"customConfigValue\": \"Test value\",\n        \"customConfigIdname\": \"ID\",\n        \"customConfigPredefinedValue\": \"test\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
