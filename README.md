@@ -109,7 +109,7 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
 <a name="instruction"></a>
 ### 📝 Instruction
 * Check the config values in `application.properties` file and `config.properties` file.
-* There I added some demo config data.
+* There, I added some demo configs data.
 * Run the project in your IDE.
 
 * Import `read-properties-file-value.postman_collection.json` file under project directory (see that file in project directory) into your installed Postman application.
@@ -117,7 +117,7 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
     * After that, you can see the folder which you import from file in your Postman.
 * Now, you can 'Test' this project by calling API from Postman.
     * Open your imported folder in postman and inside this folder, you will see total of 4 API requests and you can test it all by clicking `Send` button and see the response.
-    * See the response and that responses should be same with `application.properties` file values and `config.properties` file values
+    * See the response and that responses should be same with `application.properties` file values and `config.properties` file values.
     * You can also check in your IDE log for some print out values.
 
 * After that you can see the code and check the code which you don't know. You can learn it and you can apply in your job or study fields.
